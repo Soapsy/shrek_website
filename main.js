@@ -1,4 +1,4 @@
-// Sticky Header
+// Адаптивный хедер
 $(window).scroll(function() {
 
     if ($(window).scrollTop() > 100) {
@@ -8,7 +8,7 @@ $(window).scroll(function() {
     }
 });
 
-// Mobile Navigation
+// Навигация для мобильных устройств
 $('.mobile-toggle').click(function() {
     if ($('.main_h').hasClass('open-nav')) {
         $('.main_h').removeClass('open-nav');
@@ -24,7 +24,7 @@ $('.main_h li a').click(function() {
     }
 });
 
-// navigation scroll lijepo radi materem
+// Скролл навигации
 $('nav a').click(function(event) {
     var id = $(this).attr("href");
     var offset = 70;
